@@ -1,0 +1,946 @@
+body{
+  margin: 0%;
+  padding: 0%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+  /* width: 100%;
+  height: 75px; */
+  background-color: #000000;
+  line-height: 10px;
+  justify-content: space-between;
+  /* position: fixed; */
+  /* z-index: 1; */
+  display: flex ;
+  align-items: center;
+}
+
+.logo{
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  color: #edc96e;
+  text-transform: uppercase;
+  margin-top: 5px;
+  margin-left:  60px;
+
+}
+
+
+.navbar-links ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+
+}
+
+.navbar-links li{
+  list-style: none;
+
+}
+
+.navbar-links li a{
+  text-decoration: none;
+  color: white;
+  padding: 2.5rem;
+  display: block;
+ 
+}
+
+.navbar-links li a:hover{
+   color:#edc967;
+}
+
+
+.image img{
+  width: 100%;
+  height: 50%;
+  opacity: 0.80;
+}
+
+.toggle-button{
+  position: absolute;
+  top: .75rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+ 
+}
+
+.toggle-button .bar{
+  height: 3px;
+  width: 100% ;
+  background-color: #edc96e;
+  border-radius: 10px;
+}
+
+.text-part{
+  position: relative;
+  bottom: 500px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  /* text-shadow: 5px 5px #000000; */
+  text-align: center;
+}
+
+.button-1 {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-left: 280px;
+  bottom: 450px;
+  left: 250px;
+  position: relative;
+}
+
+.button-1 {
+  background-color:black;
+  color: white;
+  
+}
+
+.button-1:hover {
+  background-color: #edc967;
+  color: black;
+}
+
+.section-two{
+  width: 100%;
+  height: 30%;
+  background-color: #D3D3D3;
+  top: -140px;
+  position: relative;
+ 
+}
+
+.part-one{
+  margin-left: 150px;
+  text-transform: capitalize;
+  font-size: 18px;
+  padding: 60px;
+}
+
+.second-part{
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.part-two{
+  text-transform: capitalize;
+  font-size: 18px;
+  padding: 60px;
+  margin-left: 200px;
+  margin-top: -130px;
+} 
+
+.second-part-two{
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 70px;
+}
+
+.part-three{
+  text-transform: capitalize;
+  font-size: 18px;
+  padding: 60px;
+  margin-left: 500px;
+  margin-top: -190px;
+} 
+
+.second-part-three{
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.part-four{
+  text-transform: capitalize;
+  font-size: 18px;
+  padding: 60px;
+  margin-left: 700px;
+  margin-top: -190px;
+} 
+
+.second-part-four{
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.pic-one img{
+  width: 350px;
+  height: 300px;
+  opacity: 0.80;
+  margin-top: -140px;
+}
+
+.pic-two img{
+  width: 300px;
+  height: 300px;
+  opacity: 0.80;
+  margin-top: -305px;
+  margin-left: 350px;
+  position: absolute;
+
+}
+
+.pic-three img{
+  width: 350px;
+  height: 300px;
+  opacity: 0.80;
+  margin-top: -305px;
+  margin-left: 650px;
+  position: absolute;
+
+}
+.pic-four img{
+  width: 350px;
+  height: 300px;
+  opacity: 0.80;
+  margin-top: -305px;
+  margin-left: 1000px;
+  position: absolute;
+
+}
+
+.hol-col{
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+ .circle-1{
+  width: 70px;
+  height: 70px;
+  color:#000;
+  border-radius: 50%;
+  margin-left: 250px;
+  margin-bottom: 30px;
+  outline-style:auto;
+  position: relative;
+  top: 60px;
+}
+
+.circle-2{
+  width: 70px;
+  height: 70px;
+  color:#000;
+  border-radius: 50%;
+  margin-left: 650px;
+  outline-style:auto;
+  position: relative;
+  bottom: 40px;
+  
+}
+
+.circle-3{
+  width: 70px;
+  height: 70px;
+  color:#000;
+  border-radius: 50%;
+  margin-left: 1000px;
+  outline-style:auto;
+  position: relative;
+  bottom: 105px;
+  
+}
+
+.content{
+  font-size: 12px;
+  text-align: center;
+  position: absolute;
+  width: inherit;
+  height: auto;
+  margin-top: 2px;
+}
+
+.lashes-hair img{
+  width:350px;
+  margin-left: 150px;
+  position: absolute;
+  margin-top: -100px;
+}
+
+.lashes-hairs img{
+  width:200px;
+  margin-left: 600px;
+  position: absolute;
+  margin-top: -70px;
+}
+
+.lashes-hairss img{
+  width:250px;
+  margin-left: 900px;
+  position: absolute;
+  margin-top: -100px;
+}
+
+.price-list{
+  text-transform: capitalize;
+  margin-top: 250px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 200px;
+  position: absolute;
+}
+
+.slash-sales{
+  margin-top: 280px;
+  font-size: 18px;
+  margin-left: 270px;
+  position: absolute;
+}
+
+.price-list-one{
+  text-transform: capitalize;
+  margin-top: 250px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 600px;
+  position: absolute;
+}
+
+.slash-sales-one{
+  margin-top: 280px;
+  font-size: 18px;
+  margin-left: 680px;
+  position: absolute;
+}
+
+.price-list-two{
+  text-transform: capitalize;
+  margin-top: 250px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 950px;
+  position: absolute;
+}
+
+.slash-sales-two{
+  margin-top: 280px;
+  font-size: 18px;
+  margin-left: 1050px;
+  position: absolute;
+}
+
+.button-2 {
+  border: none;
+  color: white;
+  padding: 16px 33px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-left: -100px;
+  margin-top: 800px;
+  bottom: 450px;
+  left: 250px;
+  position: relative;
+  width: 25%;
+}
+
+.button-2 {
+  background-color:#000;
+  color:#edc96e;
+  
+}
+
+.button-2:hover {
+  background-color: #edc96e;
+  color: #000;
+}
+
+.button-3{
+  border: none;
+  color: white;
+  padding: 16px 33px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-left: 50px;
+  margin-top: 800px;
+  bottom: 450px;
+  left: 250px;
+  position: relative;
+  width: 25%;
+}
+
+.button-3 {
+  background-color:#edc96e;
+  color: #000;
+  
+}
+
+.button-3:hover {
+  background-color: #000;
+  color: #edc96e;
+}
+
+.button-4 {
+  border: none;
+  color: white;
+  padding: 16px 33px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-left: 100px;
+  margin-top: 800px;
+  bottom: 450px;
+  left: 250px;
+  position: relative;
+  width: 25%;
+}
+
+.button-4 {
+  background-color:#000;
+  color: #edc96e;
+  
+}
+
+.button-4:hover {
+  background-color:#edc96e;
+  color: #000;
+}
+
+
+/* .section-two{
+  width: 100%;
+  height: 30%;
+  background-color: #D3D3D3;
+  top: -140px;
+  position: relative;
+ 
+} */
+
+.lashes-advert img{
+  width:650px;
+  margin-left: 0px;
+  position: absolute;
+  margin-top: -400px;
+}
+
+.lashes-advert-one img{
+  width:650px;
+  margin-left: 700px;
+  position: absolute;
+  margin-top: -400px;
+  margin-right: 0px;
+}
+
+.ig-section{
+  width: 100%;
+  height: 350px;
+  background-color: #D3D3D3;
+  top: -160px;
+  position: relative;
+  
+ 
+}
+
+.inst-gram{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.ig-one img{
+  width: 250px;
+  height: 300px;
+  margin-top: 20px;
+}
+
+.ig-two img{
+  width: 300px;
+  height: 300px;
+  opacity: 0.80;
+  margin-top: -305px;
+  margin-left: 260px;
+  position: absolute;
+
+}
+
+.ig-three img{
+  width: 270px;
+  height: 300px;
+  opacity: 0.80;
+  margin-top: -305px;
+  margin-left: 570px;
+  position: absolute;
+
+}
+
+.ig-four img{
+  width: 250px;
+  height: 300px;
+  opacity: 0.80;
+  margin-top: -305px;
+  margin-left: 850px;
+  position: absolute;
+
+}
+
+.ig-five img{
+  width: 250px;
+  height: 300px;
+  opacity: 0.80;
+  margin-top: -305px;
+  margin-left: 1110px;
+  position: absolute;
+
+}
+
+.button-ig{
+  border: none;
+  color: white;
+  padding: 16px 33px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-left: 500px;
+  margin-top: 500px;
+  bottom: 450px;
+  position: relative;
+  width: 30%;
+  
+}
+
+.button-ig {
+  background-color:#000;
+  color:#edc96e;
+  
+}
+
+.button-ig:hover {
+  background-color: #edc96e;
+  color: #000;
+}
+
+*{
+  padding:0;
+  box-sizing: border-box;
+}
+
+.container{
+  max-width: 1170px;
+  background-color: #000;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.footer{
+  background-color: #000;
+  padding: 70px 0 ;
+  
+}
+
+
+ul{
+  list-style: none;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-col{
+  width: 25%;
+  padding: 0 15px;
+}
+
+.footer-col h4{
+  font-size: 18px;
+  color:#edc96e;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+
+
+.footer-col ul li{
+  margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 300;
+  display: block;
+  color: #edc96e;
+  transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+  color: #fff;
+  padding-left: 8px; 
+}
+
+.footer-col .social-links a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: #edc96e;
+  margin-right: 10px;
+  text-align: center;
+  line-height:  40px;
+  border-radius: 50%;
+  color:#000;
+  transition: all o.5s ease;
+}
+
+.footer-col .social-links a:hover{
+  color: #24262b;
+  background-color: #ffffff;
+}
+
+
+@media all and (max-width: 768px){
+  .toggle-button{
+    display: flex;
+    margin-top: 10px;
+  }
+
+  .navbar-links {
+    display: none;
+    width: 100%;
+  }
+
+  .navbar{
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 50px;
+
+  
+  }
+
+  .navbar-links ul{
+    width: 100%;
+    flex-direction: column;
+  } 
+  .navbar-links li{
+    text-align: center;
+  
+  }
+
+  .navbar-links li a{
+    padding: .5rem 1rem;
+  }
+
+  .navbar-links :active{
+    display: flex;
+  }
+
+
+  .image img{
+    width: 100%;
+    height: auto;
+   
+  }
+
+  .button-1{
+    left: -240px;
+    bottom: 320px;
+    position: absolute;
+    font-size: 15px;
+    padding: 10px 20px;
+    
+  }
+
+  .text-part{
+    position: absolute;
+    bottom: 370px;
+    font-size: 20px;
+
+  }
+
+  .logo{
+    margin-left:  10px;
+    font-size: 13px;
+  }
+
+  .section-two{
+    height: 400px;
+    top: -5px;
+   
+  }
+
+  .part-one{
+    margin-left: 45px;
+    font-size: 18px;
+    padding: 20px;
+    
+  }
+
+  .part-two{
+    font-size: 16px;
+    padding: 5px;
+    margin-left: 2px;
+    margin-top: 20px;
+  } 
+
+ .second-part-two{
+  margin-left: 40px;
+  }
+
+  .part-three{
+    font-size: 18px;
+    padding: 5px;
+    margin-left: 25px;
+    margin-top: 20px;
+  } 
+
+  .part-four{
+    font-size: 16px;
+    padding: 5px;
+    margin-left: 2px;
+    margin-top: 20px;
+  } 
+
+  .pic-one img{
+    width: 100%;
+    height: 250px;
+    opacity: 0.80;
+    margin-top: -10px;
+  }
+
+  .pic-two img{
+    width: 100%;
+    height: 350px;
+    opacity: 0.80;
+    margin-top: -5px;
+    margin-left: 0px;
+  }
+
+  .pic-three img{
+    width: 100%;
+    height: 300px;
+    opacity: 0.80;
+    margin-top: 345px;
+    margin-left: 0px;
+    position: relative;
+  }
+
+  .pic-four img{
+    width: 100%;
+    height: 350px;
+    opacity: 0.80;
+    margin-top: -5px;
+    margin-left: 0px;
+    position: relative;
+  }
+
+  .hol-col{
+    font-size: 1.5rem;
+    margin-top: 10px;
+    justify-content: center;
+  }
+
+  .circle-1{
+    margin-left: 40px;
+  }
+
+  .lashes-hair img{
+    margin-top: -240px;
+    width: 200px;
+  }
+
+  .price-list{
+    margin-top: -100px;
+    position: relative;
+    font-size: 0.8rem;
+    margin-left: 10px;
+  }
+
+  .slash-sales{
+    margin-top: -20px;
+    position: relative;
+    font-size: 1rem;
+    margin-left: 250px;
+    font-weight: bold;
+  }
+
+  .button-2{
+    margin-left: -220px;
+    bottom: 780px;
+    width: 80%;
+   
+  }
+
+  .circle-2{
+    margin-left: 40px;
+    top: 170px;
+  }
+
+  .lashes-hairs img{
+    margin-left: 190px;
+    width: 120px;
+    margin-top: -5px;
+  }
+  .price-list-one{
+    margin-left: 20px;
+    font-size: 0.8rem;
+    margin-top: 200px;
+    font-weight: bold;
+   
+  }
+
+  .button-3{
+    margin-left: -260px;
+    bottom: 570px;
+    width: 80%;
+   
+  }
+
+  .slash-sales-one{
+   margin-top: 195px;
+   margin-left: 240px;
+   font-size: 1rem;
+   font-weight: bold;
+  }
+
+  .circle-3{
+    margin-left: 40px;
+    top: 300px;
+  }
+
+  .lashes-hairss img{
+    margin-left: 180px;
+    width: 120px;
+    margin-top: 190px;
+    width: 150px;  
+  }
+  .price-list-two{
+    margin-left: 20px;
+    font-size: 0.8rem;
+    margin-top: 420px;
+    font-weight: bold;
+   
+  }
+
+  .slash-sales-two{
+    margin-top: 420px;
+    margin-left: 240px;
+    font-size: 1rem;
+    font-weight: bold;
+   }
+
+   
+  .button-4{
+    margin-left: -260px;
+    bottom: 350px;
+    width: 80%;
+   
+  }
+
+  .lashes-advert img{
+    width: 95%;
+    margin-bottom: 250px;
+    position: relative;
+  }
+
+  .lashes-advert-one img{
+    width: 95%;
+    margin-bottom: 170px;
+    position: relative;
+    margin-left: 1px;
+  }
+
+  .inst-gram{
+    font-size: 1rem;
+  }
+
+  .ig-section{
+    top: -50px;
+  }
+
+  .ig-one img{
+    width: 30%;
+    height: 120px;
+    margin-left: 10px;
+  }
+
+  .ig-two img{
+    width: 30%;
+    height: 120px;
+    bottom: 170px;
+    right: 110px;
+  }
+
+  .ig-three img{
+    width: 30%;
+    height: 120px;
+    bottom: 170px;
+    right: 10px;
+  }
+  .ig-four img{
+    width: 40%;
+    height: 120px;
+    bottom:30px;
+    right: 180px;
+  }
+
+  .ig-five img{
+    width: 40%;
+    height: 120px;
+    bottom: 30px;
+    right: 10px;
+  }
+
+  .button-ig{
+    margin-left:1px;
+    bottom: 350px;
+    width: 100%; 
+  }
+  .footer-col {
+    width: 50%;
+    margin-bottom: 50px
+
+}
+
+.footer{
+  height: 10px;
+}
+}
