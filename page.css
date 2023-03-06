@@ -637,7 +637,8 @@ ul{
 }
 
 
-@media all and (max-width: 768px){
+@media only screen and (max-width: 768px){
+
   .toggle-button{
     display: flex;
     margin-top: 10px;
@@ -682,7 +683,7 @@ ul{
 
   .button-1{
     left: -240px;
-    bottom: 280px;
+    bottom: 400px;
     position: absolute;
     font-size: 15px;
     padding: 10px 20px;
@@ -691,7 +692,7 @@ ul{
 
   .text-part{
     position: absolute;
-    bottom: 350px;
+    bottom: 450px;
     font-size: 20px;
 
   }
